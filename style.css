@@ -1,0 +1,43 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.screen {
+    border: 2px solid black;
+    text-align: end;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 30px;
+    height: 50px;
+}
+button {
+    flex-grow: 1;
+    margin: 3px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+height: 300px;
+width: 300px;    
+
+}
+.buttons {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    flex-grow: 1;
+}
+.digit {
+    background-color: beige;
+}
